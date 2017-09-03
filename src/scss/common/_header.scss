@@ -1,0 +1,19 @@
+.site-header {
+  padding: 20px 0;
+  border-bottom: 1px solid $bdColor;
+
+  .site-title {
+    text-align: center;
+  }
+  //.site-title
+
+  .site-nav {
+    margin-top: 10px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  //.site-nav
+}
+//.site-header

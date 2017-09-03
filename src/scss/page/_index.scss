@@ -1,0 +1,20 @@
+#index-content {
+
+  .index- {
+    &sec {
+      margin-top: 50px;
+
+      &:nth-child(even) {
+        padding: 50px 0;
+        background: #f5f5f5;
+      }
+    }//sec
+  }//index
+
+  #about {
+    .txt-lead {
+      margin-left: 30px;
+    }
+  }//#about
+
+}

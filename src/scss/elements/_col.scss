@@ -1,0 +1,23 @@
+.col- {
+
+  &2 {
+    display: flex;
+    justify-content: space-between;
+  }//2
+
+  &4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .col {
+      width: 300px;
+    }
+
+    &:last-child::after {
+      width: 300px;
+      content: "";
+    }
+  }//4
+
+}//col

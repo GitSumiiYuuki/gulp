@@ -14,33 +14,55 @@
 
 <!-- コンテンツ -->
 {% block content %}
-<main class="index-contents content-base">
-  <section class="main-sec">
-    <h2 class="ttl-sec">ABOUT</h2>
-    <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+<main id="index-content">
 
-    <section class="sub-sec">
-      <h3 class="ttl-sub-sec">具体的な説明</h3>
-      <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-    </section>
+  <section id="about" class="index-sec content-base">
+    <h2 class="ttl-sec_index">ABOUT</h2>
+    <div class="col-2">
+      <div class="col"><img src="https://placehold.jp/200x200.png" alt=""></div>
+      <p class="col txt-lead">リード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入ります</p>
+    </div>
   </section>
-  <!-- /.main-sec -->
+  <!-- /#about -->
 
-  <section class="main-sec">
-    <h2 class="ttl-sec">WORKS</h2>
-    <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-
-    <section class="sub-sec">
-      <h3 class="ttl-sub-sec">具体的な説明1</h3>
-      <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-    </section>
-    <!-- /.sub-sec -->
-    <section class="sub-sec">
-      <h3 class="ttl-sub-sec">具体的な説明2</h3>
-      <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-    </section>
+  <section id="works" class="index-sec">
+    <div class="content-base">
+      <h2 class="ttl-sec_index">WORKS</h2>
+      <ul class="col-4 works-art-list">
+        <li class="col">
+          <a href="">
+            <div class="thumb"><img src="https://placehold.jp/300x200.png" alt=""></div>
+            <div class="content">
+              <time class="date">2018/09/09</time>
+              <p class="txt">リード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入ります</p>
+              <a href="" class="btn-fill">Read More</a>          
+            </div>
+          </a>
+        </li>
+        <li class="col">
+          <a href="">
+            <div class="thumb"><img src="https://placehold.jp/300x200.png" alt=""></div>
+            <div class="content">
+              <time class="date">2018/09/09</time>
+              <p class="txt">リード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入ります</p>
+              <a href="" class="btn-fill">Read More</a>          
+            </div>
+          </a>
+        </li>
+        <li class="col">
+          <a href="">
+            <div class="thumb"><img src="https://placehold.jp/300x200.png" alt=""></div>
+            <div class="content">
+              <time class="date">2018/09/09</time>
+              <p class="txt">リード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入りますリード文が入ります</p>
+              <a href="" class="btn-fill">Read More</a>          
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
   </section>
-  <!-- /.main-sec -->
+  <!-- /#works -->
+
 </main>
-<!-- /.main -->
 {% endblock %}

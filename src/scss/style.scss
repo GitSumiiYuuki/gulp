@@ -6,17 +6,28 @@
 @import 'base/base';
 
 /* ====================
---- > components
+--- > elements
 ==================== */
-@import 'components/typografy';
+@import 'elements/ttl';
+@import 'elements/typografy';
+@import 'elements/btn';
+@import 'elements/col';
+@import 'elements/list';
 
 /* ====================
---- > common
+--- > components
 ==================== */
-@import 'common/header';
-@import 'common/main';
-@import 'common/footer';
+@import 'components/header';
+@import 'components/footer';
+
+/* ====================
+--- > contents
+==================== */
+@import 'contents/about';
+@import 'contents/works';
 
 /* ====================
 --- > page
 ==================== */
+@import 'page/index';
+@import 'page/under';

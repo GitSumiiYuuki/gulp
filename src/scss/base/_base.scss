@@ -3,10 +3,17 @@
   padding: 0;
   list-style: none;
 }
-//*
+
+body {
+  font-size: 14px;
+}
 
 .content-base {
-  width: 980px;
+  max-width: 980px;
   margin: auto;
 }
-//.content-base
+
+a {
+  color: $baseFontColor;
+  text-decoration: none;
+}

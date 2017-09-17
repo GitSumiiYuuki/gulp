@@ -7,17 +7,17 @@
     keywords: ''
   } %}
   {% endblock %}
-  {% include '_components/_meta.html' %}
+  {% include '_common/_meta.html' %}
   <link rel="stylesheet" href="css/style.css">
   <title>{% block title %}{% endblock %} | gulp template</title>
 </head>
 <body>
   
-  {% include '_components/_header.html' %}
+  {% include '_common/_header.html' %}
 
   {% block content %}{% endblock %}
 
-  {% include '_components/_footer.html' %}
+  {% include '_common/_footer.html' %}
 
 </body>
 </html>

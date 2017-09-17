@@ -1,22 +1,24 @@
 /* ====================
---- > base
+--- > Base
 ==================== */
-@import 'base/variables';
+@import 'base/variables/color';
+@import 'base/variables/font';
+@import 'base/variables/size';
 @import 'base/mixins';
 @import 'base/base';
 
 /* ====================
---- > components
+--- > SiteWide
 ==================== */
-@import 'components/typografy';
+@import 'sitewide/button';
 
 /* ====================
---- > common
+--- > Structure
 ==================== */
-@import 'common/header';
-@import 'common/main';
-@import 'common/footer';
+@import 'structure/header';
 
 /* ====================
---- > page
+--- > Namespace
 ==================== */
+@import 'namespace/layout/detail';
+@import 'namespace/top';

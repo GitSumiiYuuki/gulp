@@ -24,6 +24,7 @@
 .st-Header_Nav {
 	ul {
 		display: flex;
+		align-items: center;
 	}
 
 	li {
@@ -33,7 +34,6 @@
 		a {
 			transition: $baseTransition;
 
-			&[aria-current="true"],
 			&:hover {
 				color: lighten($ecssColor, 10%);
 			}
